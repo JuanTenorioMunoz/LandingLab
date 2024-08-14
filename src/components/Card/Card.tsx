@@ -17,4 +17,5 @@ const Card  = ({image, status, title, body}:CardProps) => {
     )
 }
 
-export default Card
+export default Card;
+export type {CardProps};

@@ -1,4 +1,4 @@
-{
+ export const cardInfo = {
     "cards": [
         {
             "image":"mamaguevo",
