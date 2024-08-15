@@ -1,3 +1,5 @@
+import './Card.css'
+
 interface CardProps{
     image: string,
     status: string,
@@ -9,10 +11,12 @@ interface CardProps{
 const Card  = ({image, status, title, body}:CardProps) => {
     return (
         <div className="card">
-            <img src={image}></img>
-            <h2>{status}</h2>
-            <h1>{title}</h1>
-            <h1>{body}</h1>
+            <img className="image" src={image}></img>
+            <section className='textCardSection'>
+                <h2 className='status'>{status}</h2>
+                <h1 className='title'>{title}</h1>
+                <p className='body'>{body}</p>
+            </section>
         </div>
     )
 }

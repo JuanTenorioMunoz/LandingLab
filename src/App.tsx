@@ -8,7 +8,11 @@ function App() {
   return (
     <>
     <Navbar text='OUR GAMES'></Navbar>
-    <CardContainer cards={cardInfo}></CardContainer>
+    <div id='infoDiv'>   
+       <h1 id='featured'>Featured Games</h1>
+      <CardContainer cards={cardInfo}></CardContainer>
+    </div>
+
     </>
   )
 }

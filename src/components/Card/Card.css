@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.status{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.8;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.body{
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    margin-right: 3.5rem;
+}
+
+.image{
+    max-height: 70%;
+}
+
+.card{
+    background-color: #14171F;
+    width: 42.5vw;
+    min-width: 271px;
+    display: flex;
+    flex-direction: column;  
+    height: 85vh;
+}
+
+.textCardSection{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+    margin-left: 1.6rem;
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+}

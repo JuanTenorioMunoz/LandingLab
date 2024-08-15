@@ -1,3 +1,5 @@
+import './Textlink.css'
+
 type TextlinkProps = {
     name: string;
     link: string;

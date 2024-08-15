@@ -1,4 +1,5 @@
 import Card, { CardProps } from "../Card/Card";
+import './CardContainer.css'
 
 interface CardContainerProps {
     cards: CardProps[];
