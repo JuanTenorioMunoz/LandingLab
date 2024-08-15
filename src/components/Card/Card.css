@@ -20,7 +20,7 @@
     color: rgb(255, 255, 255);
     font-family: 'Source Sans 3', sans-serif;
     font-size: 16px;
-    margin-right: 3.5rem;
+    margin-right: 2.5rem;
 }
 
 .image{
@@ -37,10 +37,18 @@
 }
 
 .textCardSection{
+    position: relative;
     display: flex;
     flex-direction: column;
     row-gap: 0.2rem;
     margin-left: 1.6rem;
-    margin-right: 1rem;
     margin-top: 1.3rem;
 }
+
+#textDivider{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+

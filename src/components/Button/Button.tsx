@@ -1,9 +1,11 @@
+import './Button.css'
+
 type ButtonProps = {
-    name: string;
+    text: string;
 };
 
-const Button = ({ name }: ButtonProps) => (
-    <button>{name}</button>
+const Button = ({ text }: ButtonProps) => (
+    <button className="button">{text}</button>
 );
 
 
